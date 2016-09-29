@@ -1,43 +1,110 @@
-header {
-  text-align: center;
-  background: url('http://orig13.deviantart.net/0467/f/2014/242/1/7/you_can_handle_a_little_awkwardness_by_finchwing-d7xb7je.png');
-  background-size: cover;
-  color: white;
+/*Hatchery Colours
+
+Blue: 
+lt blue: #B5CDD5;
+dk blue: #223C49; (34,60,73)
+Grey: #3C3E3F;
+Turquoise: #00B0A7; rgba(0, 176, 167, 0.7);
+purple: #B582AF;
+
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
+#impactText {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 400%;
+    color: #223C49;
 }
 
-a {
-  color: white;
+.padding-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
-
-
-
-h1 {
-  font-size: 70px;
+div.bluebox {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 20%;
+    text-align: center;
+    color: transparent;
 }
 
-img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
-}
-  
-ul {
-  padding: 10px;
-  background: black;
+div.bluebox:hover {
+    transition: all 0.5s ease;
+    background-color: rgba(0, 176, 167, 0.8);
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #505050;
 }
 
-li {
-  display: inline;
-  padding: 0px 10px 0px 10px;
+div.bluebox span.grey:hover {
+    color: #3C3E3F;
 }
 
-article {
-  
-  /*width: 500px
-  padding: 20px
-  margin: 0 auto*/
+.hmw {
+    font-size: 400%;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.5px;
 }
-body {
-  background: url(ele.jpg);
+
+.dash {
+    margin: 2% auto;
+    width: 3%;
+    height: 1%;
+    background: #00B0A7;
+}
+
+.team{
+   background-size: cover;
+   height: 500px;
+   border: 30px solid #FFFFFF; //border around images
+}
+    
+/*------TEAM IMAGES-------------*/
+
+#arts {
+    background-image: url(imgs/arts.gif);
+}
+
+#asd {
+    background-image: url(imgs/ASD.gif);
+}
+
+#gp {
+    background-image: url(imgs/gp.gif);
+}
+
+#toys {
+    background-image: url(imgs/hatchery_sustainable_toys.gif);
+}
+
+#loop {
+    background-image: url(imgs/loop.gif);
+}
+
+#mental-health {
+    background-image: url(imgs/mental_health.gif);
+}
+
+#passionfruit {
+    background-image: url(imgs/passionfruit.gif);
+}
+
+#posture {
+    background-image: url(imgs/posture.gif);
+}
+
+#tradie {
+    background-image: url(imgs/tradie.gif);
+}
+
+#umed {
+    background-image: url(imgs/umed.gif);
+}
+
+#upstream {
+    background-image: url(imgs/upstream_health.gif);
 }
