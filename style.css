@@ -59,6 +59,7 @@ div.bluebox span.grey:hover {
 
 .team{
    background-size: cover;
+   background-position: center; 
    height: 500px;
    border: 30px solid #FFFFFF; //border around images
 }
